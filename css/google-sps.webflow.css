@@ -482,9 +482,9 @@ label {
 .page-wrapper {
   overflow: hidden;
   width: 100%;
-  background-image: url('../images/google-2-1.jpg');
+  background-image: none;
   background-position: 0px 0px;
-  background-size: contain;
+  background-size: auto;
 }
 
 .logo-link {
@@ -1818,6 +1818,12 @@ label {
   margin-top: 20px;
   margin-left: 10px;
   text-align: center;
+}
+
+.div-block-3 {
+  background-image: url('../images/782769.png');
+  background-position: 0px 0px;
+  background-size: contain;
 }
 
 @media screen and (max-width: 991px) {
